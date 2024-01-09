@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
+
+/* header */
+
+
 header {
     margin: 0%;
     padding: 0%;
@@ -178,6 +182,8 @@ header {
 
 }
 
+/* main */
+
 article {
     background-color: rgb(207, 168, 168);
     margin: auto;
@@ -228,4 +234,67 @@ article {
     gap: 10px;
     border-radius: 8px;
     background: #F00;
+}
+
+
+/* footer */
+
+.contact {
+    background-color: #070211;
+    width: 1300px;
+    height: 600px;
+    margin:auto;
+}
+
+.contact hr {
+    width: 1300px;
+    height: 0.5px;
+}
+
+.addres-and-phone {
+    margin: 100px 130px 0px 100px;
+}
+
+.addres {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.number,
+.website {
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 10px
+}
+
+.addres-and-phone {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+}
+
+.addres-and-phone>p {
+    padding-right: 280px;
+}
+
+.link {
+    text-align: center;
+}
+
+.final-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 190px;
+    padding-top:50px;
 }
