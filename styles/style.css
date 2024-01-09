@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
 header {
     margin: 0%;
     padding: 0%;
@@ -144,9 +146,10 @@ header {
     align-items: center;
 
 }
-.button{
+
+.button {
     background: rgb(61, 61, 58);
-    margin:  10px 470px 0 10px;
+    margin: 10px 470px 0 10px;
 
 
 }
@@ -172,5 +175,57 @@ header {
 .another-img {
     position: absolute;
     margin: 0 0px 0 700px;
-    
+
+}
+
+article {
+    background-color: rgb(207, 168, 168);
+    margin: auto;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+}
+
+.bar {
+    padding: 100px 400px 215px 550px;
+}
+
+
+.event-details p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600px;
+    /* line-height: 70px; */
+    /* text-transform: capitalize; */
+}
+
+.place,
+.date,
+.time {
+    color: #F00;
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.bar .buttons {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
 }
